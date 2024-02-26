@@ -16,7 +16,7 @@ export default {
       colors: {
         deepBlue: '#22202d',
         orange: '#ED760D',
-        black: 'rgb(75, 72, 72)',
+        black: '#000',
         bG: '#d5dae6',
       },
     },
