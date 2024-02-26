@@ -26,7 +26,7 @@ const Navbar = () => {
                         </li>
                     </ul>
                     <div className='btn-group'>
-                        <button className='px-[32px] py-[14px] border border-orange bg-orange text-white rounded-[24px_4px] font-semibold text-2xl hover:shadow-[rgb(0_0_0_/_15%)_0px_8px_24px]'>Connect Wallet</button>
+                        <button className='w-[100%] lg:px-[32px] md:px-[24px] px-4 lg:py-[14px] md:py-[10px] py-4 border border-orange bg-orange text-white rounded-[24px_4px] font-semibold md:text-2xl text-lg hover:shadow-[rgb(0_0_0_/_15%)_0px_8px_24px]'>Connect Wallet</button>
                     </div>
                     <div className='hamburger flex cursor-pointer lg:hidden' onClick={handleClick}>
                         {click ? (<FaTimes size={20} style={{color: '#ED760D'}}/>) : (<FaBars size={20} style={{color: '#ED760D'}} />)}
