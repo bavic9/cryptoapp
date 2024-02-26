@@ -25,7 +25,7 @@ const Features = () => {
     </div></div>
 
     return (
-        <div className='featured w-full lg:bg-bG lg:mt-[-5rem] px-0 pt-32 pb-24 relative'>
+        <div className='featured w-full lg:bg-bG lg:mt-[-5.5rem] px-0 pt-32 pb-24 relative'>
             <div className='lg:max-w-[1240px] m-auto lg:grid grid-cols-[repeat(2,1fr)] justify-center items-center p-4 space-y-8 md:space-y-16'>
                 {/* Left */}
                 <div className='flex flex-col justify-center lg:text-start text-center pb-8 space-y-8'>
