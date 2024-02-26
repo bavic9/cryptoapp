@@ -36,8 +36,8 @@ const Features = () => {
 
                 {/* Right */}
 
-                <div className='flex flex-wrap lg:justify-evenly md:grid grid-cols-3 md:ml-[10%]'>
-                    <div className='flex flex-col w-[170px] h-[200px] border shadow-[rgb(0_0_0_/_12%)_0px_8px_24px] text-center m-[0.4rem] px-[22px] py-3 rounded-3xl border-solid border-orange hover:shadow-[rgb(0_0_0_/_20%)_0px_8px_24px]'>
+                <div className='flex flex-wrap lg:justify-evenly justify-center md:grid grid-cols-3 md:ml-[10%]'>
+                    <div className='flex flex-col w-[150px] h-[200px] border shadow-[rgb(0_0_0_/_12%)_0px_8px_24px] text-center m-[0.4rem] px-[22px] py-3 rounded-3xl border-solid border-orange hover:shadow-[rgb(0_0_0_/_20%)_0px_8px_24px]'>
                         <div className='flex flex-col'>
                             <img
                                 className='w-[50px] m-auto py-[0.2rem]'
@@ -60,7 +60,7 @@ const Features = () => {
                             </span>
                         )}
                     </div>
-                    <div className='flex flex-col w-[170px] h-[200px] border shadow-[rgb(0_0_0_/_12%)_0px_8px_24px] text-center m-[0.4rem] px-[22px] py-3 rounded-3xl border-solid border-orange hover:shadow-[rgb(0_0_0_/_20%)_0px_8px_24px]'>
+                    <div className='flex flex-col w-[150px] h-[200px] border shadow-[rgb(0_0_0_/_12%)_0px_8px_24px] text-center m-[0.4rem] px-[22px] py-3 rounded-3xl border-solid border-orange hover:shadow-[rgb(0_0_0_/_20%)_0px_8px_24px]'>
                         <div className='flex flex-col'>
                             <img
                                 className='w-[50px] m-auto py-[0.2rem]'
@@ -83,7 +83,7 @@ const Features = () => {
                             </span>
                         )}
                     </div>
-                    <div className='flex flex-col w-[170px] h-[200px] border shadow-[rgb(0_0_0_/_12%)_0px_8px_24px] text-center m-[0.4rem] px-[22px] py-3 rounded-3xl border-solid border-orange hover:shadow-[rgb(0_0_0_/_20%)_0px_8px_24px]'>
+                    <div className='flex flex-col w-[150px] h-[200px] border shadow-[rgb(0_0_0_/_12%)_0px_8px_24px] text-center m-[0.4rem] px-[22px] py-3 rounded-3xl border-solid border-orange hover:shadow-[rgb(0_0_0_/_20%)_0px_8px_24px]'>
                         <div className='flex flex-col'>
                             <img
                                 className='w-[50px] m-auto py-[0.2rem]'
@@ -106,7 +106,7 @@ const Features = () => {
                             </span>
                         )}
                     </div>
-                    <div className='flex flex-col w-[170px] h-[200px] border shadow-[rgb(0_0_0_/_12%)_0px_8px_24px] text-center m-[0.4rem] px-[22px] py-3 rounded-3xl border-solid border-orange hover:shadow-[rgb(0_0_0_/_20%)_0px_8px_24px]'>
+                    <div className='flex flex-col w-[150px] h-[200px] border shadow-[rgb(0_0_0_/_12%)_0px_8px_24px] text-center m-[0.4rem] px-[22px] py-3 rounded-3xl border-solid border-orange hover:shadow-[rgb(0_0_0_/_20%)_0px_8px_24px]'>
                         <div className='flex flex-col'>
                             <img
                                 className='w-[50px] m-auto py-[0.2rem]'
@@ -129,7 +129,7 @@ const Features = () => {
                             </span>
                         )}
                     </div>
-                    <div className='flex flex-col w-[170px] h-[200px] border shadow-[rgb(0_0_0_/_12%)_0px_8px_24px] text-center m-[0.4rem] px-[22px] py-3 rounded-3xl border-solid border-orange hover:shadow-[rgb(0_0_0_/_20%)_0px_8px_24px]'>
+                    <div className='flex flex-col w-[150px] h-[200px] border shadow-[rgb(0_0_0_/_12%)_0px_8px_24px] text-center m-[0.4rem] px-[22px] py-3 rounded-3xl border-solid border-orange hover:shadow-[rgb(0_0_0_/_20%)_0px_8px_24px]'>
                         <div className='flex flex-col'>
                             <img
                                 className='w-[50px] m-auto py-[0.2rem]'
@@ -152,7 +152,7 @@ const Features = () => {
                             </span>
                         )}
                     </div>
-                    <div className='flex flex-col w-[170px] h-[200px] border shadow-[rgb(0_0_0_/_12%)_0px_8px_24px] text-center m-[0.4rem] px-[22px] py-3 rounded-3xl border-solid border-orange hover:shadow-[rgb(0_0_0_/_20%)_0px_8px_24px]'>
+                    <div className='flex flex-col w-[150px] h-[200px] border shadow-[rgb(0_0_0_/_12%)_0px_8px_24px] text-center m-[0.4rem] px-[22px] py-3 rounded-3xl border-solid border-orange hover:shadow-[rgb(0_0_0_/_20%)_0px_8px_24px]'>
                         <div className='flex flex-col'>
                             <img
                                 className='w-[50px] m-auto py-[0.2rem]'
