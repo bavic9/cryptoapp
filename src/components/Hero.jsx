@@ -8,7 +8,7 @@ const Hero = () => {
 
                 {/* Left Side */}
                 <div className='p-4 space-y-6 lg:px-0 px-8'>
-                    <h1 className='text-white font-bold px-0 py-4 lg:text-[3.5rem] md:text-[2.5rem] text-[2rem] lg:leading-[1.2] lg:text-start text-center'>Invest in Cryptocurreny with Your IRA</h1>
+                    <h1 className='text-white font-bold px-0 py-4 lg:text-[3.5rem] md:text-[2.5rem] text-[2rem] lg:leading-[1.2] lg:text-start text-center'>Take a step into the Crypto World</h1>
                     <p className='text-orange md:text-3xl text-xl font-semibold lg:text-start text-center'>Buy & Sell Crypto 24/7</p>
                     <p className='text-white md:text-3xl text-xl font-semibold lg:text-start text-center'>Buy, Sell, and store hundreds of cryptocurrencies</p>
                     <div className='px-0 py-8 flex md:flex-row flex-col gap-6'>

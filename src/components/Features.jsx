@@ -1,6 +1,7 @@
 import axios from 'axios'
 import React, { useEffect, useState } from 'react'
 import { FiArrowUpRight, FiArrowDown } from 'react-icons/fi'
+import { Link } from 'react-router-dom'
 
 const Features = () => {
     const [data, setData] = useState(null)
@@ -21,7 +22,9 @@ const Features = () => {
     if (!data) return <div className='featured lg:bg-white lg:mt-[-5rem] w-[100vw] py-12'><div className=' h-[60vh] lg:w-[60%] m-auto pt-20 flex flex-col justify-center text-center pb-8 space-y-12'>
         <h1 className='p-4'>Explore top Crypto's Like Bitcoin, Ethereum, and Dogecoin</h1>
         <p className='my-6 px-4'>See all available assets: Cryptocurrencies and NFT's</p>
-        <button className='m-auto border border-orange bg-orange text-white text-[1.1rem] font-semibold cursor-pointer px-8 py-3.5 rounded-[24px_4px] border-solid hover:shadow-[rgb(0_0_0_/_15%)_0px_8px_24px]'>See More Coins</button>
+        <button className='m-auto border border-orange bg-orange text-white text-[1.1rem] font-semibold cursor-pointer px-8 py-3.5 rounded-[24px_4px] border-solid hover:shadow-[rgb(0_0_0_/_15%)_0px_8px_24px]'>
+            <Link to={'/coins'}>See More Coins</Link>
+        </button>
     </div></div>
 
     return (
@@ -31,7 +34,10 @@ const Features = () => {
                 <div className='flex flex-col justify-center lg:text-start text-center pb-8 space-y-8'>
                     <h1>Explore top Crypto's Like Bitcoin, Ethereum, and Dogecoin</h1>
                     <p className='my-6'>See all available assets: Cryptocurrencies and NFT's</p>
-                    <button className='self-start lg:m-0 m-auto border border-orange bg-orange text-white text-[1.1rem] font-semibold cursor-pointer px-8 py-3.5 rounded-[24px_4px] border-solid hover:shadow-[rgb(0_0_0_/_15%)_0px_8px_24px]'>See More Coins</button>
+                    <button 
+                    className='self-start lg:m-0 m-auto border border-orange bg-orange text-white text-[1.1rem] font-semibold cursor-pointer px-8 py-3.5 rounded-[24px_4px] border-solid hover:shadow-[rgb(0_0_0_/_15%)_0px_8px_24px]'>
+                        <Link to={'/coins'}>See More Coins</Link>
+                    </button>
                 </div>
 
                 {/* Right */}
