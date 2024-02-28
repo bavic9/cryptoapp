@@ -11,8 +11,8 @@ const Navbar = () => {
         <div className=' h-[90px] m-auto px-6 border-b-2 border-gray-500 sticky top-0 left-0 z-10 bg-black'>
             <div className='lg:w-[70vw] m-auto flex justify-between items-center h-full p-4 text-orange'>
                 <div className='flex relative'>
-                    <h1 className='text-white text-4xl cursor-pointer'>STAKE<span className='text-orange'>NET</span></h1>
-                    <span className='absolute h-[50px] w-[50px] bg-orange rounded-full -z-10 -top-4 -left-6'></span>
+                    <h1 className='text-white lg:text-4xl text-xl cursor-pointer'>STAKE<span className='text-orange'>NET</span></h1>
+                    <span className='absolute lg:h-[50px] lg:w-[50px] h-[30px] w-[30px] bg-orange rounded-full -z-10 lg:-top-4 -top-2 lg:-left-6 -left-4'></span>
                 </div>
                 <ul className={click ? ' flex lg:flex-row flex-col text-2xl lg:top-0 absolute top-[90px] right-0 border-l-2 border-gray-500 active w-[65%] h-screen bg-black'
                     : 'lg:flex lg:flex-row hidden justify-start lg:justify-center flex-col lg:text-3xl font-bold lg:top-0 top-[90px] lg:right-0 -right-full lg:border-none border-l-2 border-gray-500 w-6/12 lg:h-fit h-screen'}>
