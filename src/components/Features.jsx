@@ -1,6 +1,7 @@
 import axios from 'axios'
 import React, { useEffect, useState } from 'react'
 import { FiArrowUpRight, FiArrowDown } from 'react-icons/fi'
+import { RiArrowUpSFill, RiArrowDownSFill } from "react-icons/ri";
 import { Link } from 'react-router-dom'
 
 const Features = () => {
